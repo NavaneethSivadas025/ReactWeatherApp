@@ -1,0 +1,83 @@
+.weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: fit-content;
+    max-width: 100%;
+    margin: auto;
+    background-color: #00bfff;
+    color: white;
+    text-align: center;
+    max-height: 80%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+    margin: 5px 10px 10px 0;
+}
+
+
+.temperature {
+    color: yellow;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.city {
+    color: yellow;
+    font-size: 40px;
+}
+
+.sunny {
+    color: orange;
+    font-size: 100px;
+}
+
+.humidity {
+    color: blue;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.windspeed {
+    color: blue;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.weatherdata {
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbutton {
+    background-color: navy;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+    place-content: center;
+}
+
+.searchbutton:hover {
+    background-color: #626262;
+}
