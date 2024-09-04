@@ -1,0 +1,41 @@
+.App {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  background-color: #191970;
+}
+
+.titleapp {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  max-width: 100%;
+  height: 35%;
+  box-sizing: border-box;
+  background-color: #00bfff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleapp h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
